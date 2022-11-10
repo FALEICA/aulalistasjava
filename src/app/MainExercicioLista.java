@@ -6,6 +6,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entidade.Pessoa;
+import entidade.Produto;
 
 public class MainExercicioLista {
 
@@ -63,6 +64,8 @@ public class MainExercicioLista {
 		idFunc = scan.nextInt();
 		
 		
+		Produto prod = new Produto("Note Book");
+		prod.mostraProduto();
 		
 		
 		
